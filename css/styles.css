@@ -95,7 +95,7 @@ address > a:hover {
 }
 .herobg {
   display: inline-block;
-  width: 1440px;
+  min-width: 1440px;
   height: 600px;
   background: #2e2f42;
 }
