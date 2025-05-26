@@ -134,19 +134,12 @@ h1 {
   width: 169px;
   height: 56px;
   border: none;
+  color: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
 }
 .order:hover {
   background: #404bbf;
-}
-.order > p {
-  width: 105px;
-  height: 24px;
-  color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .info {
   width: 1128px;
