@@ -20,14 +20,15 @@ ul {
   list-style-type: none;
 }
 .container {
-  width: calc(100% - 156px * 2);
+  width: 1158px;
   margin: 0 auto;
+}
+.containerwidth {
   padding: 120px 0 120px 0;
 }
 .navbar {
   display: flex;
   align-items: center;
-  width: calc(100% - 156px * 2);
   margin: 0 auto;
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
@@ -94,8 +95,6 @@ address > a:hover {
   color: #404bbf;
 }
 .herobg {
-  display: inline-block;
-  min-width: 1440px;
   height: 600px;
   background: #2e2f42;
 }
@@ -106,7 +105,8 @@ address > a:hover {
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  margin: 188px auto;
+  margin: auto;
+  padding-top: 188px;
 }
 h1 {
   font-weight: 700;
@@ -172,7 +172,6 @@ h2 {
   color: #2e2f42;
 }
 .team-bg {
-  width: 1440px;
   height: 732px;
   background: #f4f4fd;
 }
@@ -280,7 +279,6 @@ h2 {
   border-top: none;
 }
 .footer-bg {
-  width: 1440px;
   height: 312px;
   background: #2e2f42;
 }
